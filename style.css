@@ -2,17 +2,37 @@
     padding: 0%;
     margin: 0%;
 }
-body{
-    height: 100vh;
+#principal{
     width: 100vw;
-}
-div{
-    border: 2px solid black;
-    border-radius: 15px;
-    width: 600px;
-    height: 600px;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: aqua;
+}
+.segundaria{
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background-color: aquamarine;
+}
+
+h1{
+    margin-top: 16px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 30px;
+}
+
+select{
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
 }
